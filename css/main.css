@@ -15,7 +15,10 @@ html {
 
   position: absolute;
   transition: all .2s linear;
-  transform: rotate(30deg) scale(1);
+  transform: rotate(10deg) scale(1);
+  z-index: 3;
+  left: 20px;
+  top: 100px;
 }
 
 .polaroid > img {
