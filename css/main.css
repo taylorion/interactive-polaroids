@@ -17,8 +17,18 @@ html {
   transition: all .2s linear;
   transform: rotate(10deg) scale(1);
   z-index: 3;
-  left: 20px;
-  top: 100px;
+  left: 1px;
+  top: 50px;
+}
+
+figure {
+  position: relative;
+}
+
+figcaption {
+  position: absolute;
+  left: 35%;
+  bottom: 10%;
 }
 
 .polaroid > img {
@@ -35,14 +45,14 @@ figure:first-of-type {
   transform: rotate(-15deg) scale(1);
   left: 20%;
   top: 100px;
-  z-index: 2;
+  z-index: 1;
 }
 
 figure:last-of-type {
   transform: rotate(30deg) scale(1);
   left: 40%;
   top: 100px;
-  z-index: 1;
+  z-index: 2;
 }
 
 .polaroid:hover {
